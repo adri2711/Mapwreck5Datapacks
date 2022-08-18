@@ -3,7 +3,7 @@
 ### 1. Get added to the repo - include your GitHub account in the signup or message @Asometric#2711.
 
 ### 2. Clone the repository.
-    For easy testing, you can clone it inside of a test world and name the folder datapacks.
+   For easy testing, you can clone it inside of a test world and name the folder datapacks.
 
 ![image](https://user-images.githubusercontent.com/40923191/185394043-af9c24ab-32a5-4660-a2e7-5f87f714f9cf.png)
 
