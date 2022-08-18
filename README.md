@@ -15,7 +15,7 @@
 
 ### 4. Create your datapack in the repo.
 
-![image](https://user-images.githubusercontent.com/40923191/185394690-206bbfc6-e6fa-4e32-84a2-c033abb55ef3.png)
+![image](https://user-images.githubusercontent.com/40923191/185395001-ac46dc00-5917-4e89-ae0e-f187cdc7b480.png)
 
 
 ### 5. Every now and then, commit and push your changes to your branch.
