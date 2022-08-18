@@ -1,7 +1,7 @@
 scoreboard players set @s co_blackdevil_iframes 6
 
-scoreboard players set @s cdl.damage_queue 16
-function cd:func/mob_damage_normal/main
+scoreboard players set @s cdl.damage_queue 25
+function cd:func/mob_damage_true/main
 
 scoreboard players set @s co_send -7
 scoreboard players set @s co_y 3
