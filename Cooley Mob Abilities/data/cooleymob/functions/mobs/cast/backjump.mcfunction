@@ -7,5 +7,7 @@ function motion:motion/push
 
 execute if score @s co_vectorY matches ..30 run function cooleymob:mobs/cast/backjump_fix
 
+scoreboard players add #master co_tokens_current 1
+
 
 

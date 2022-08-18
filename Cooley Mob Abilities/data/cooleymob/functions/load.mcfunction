@@ -1,6 +1,7 @@
 scoreboard objectives add co_tokens_total dummy
 scoreboard objectives add co_tokens_current dummy
 execute unless score #master co_tokens_total matches -99999..99999 run scoreboard players set #master co_tokens_total 2
+execute unless score #master co_tokens_current matches -99999..99999 run scoreboard players set #master co_tokens_total 0
 
 scoreboard objectives add co_deal_damage minecraft.custom:minecraft.damage_dealt
 
