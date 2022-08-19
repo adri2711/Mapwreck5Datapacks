@@ -3,7 +3,6 @@ scoreboard objectives add co_kill minecraft.custom:mob_kills
 scoreboard objectives add co_strike minecraft.custom:damage_dealt
 scoreboard objectives add co_struck minecraft.custom:damage_taken
 
-
 scoreboard objectives add co_blackdevil_soul dummy
 scoreboard objectives add co_blackdevil_queue dummy
 scoreboard objectives add co_blackdevil_stage dummy
@@ -11,6 +10,8 @@ scoreboard objectives add co_blackdevil_timer dummy
 scoreboard objectives add co_blackdevil_delay dummy
 scoreboard objectives add co_blackdevil_ray dummy
 scoreboard objectives add co_blackdevil_iframes dummy
+
+scoreboard objectives add co_bouncetimer dummy
 
 scoreboard objectives add co_constant dummy
 scoreboard players set -1 constant -1
