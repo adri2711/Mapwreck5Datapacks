@@ -1,0 +1,1 @@
+execute as @p run loot give @s loot lblue:player_head
