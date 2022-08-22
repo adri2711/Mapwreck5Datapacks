@@ -23,8 +23,8 @@ execute if block ~ ~ ~ light_blue_wool run scoreboard players add $obj4.curr mon
 execute if block ~ ~ ~ yellow_wool run scoreboard players add $obj5.curr mon.count 1
 execute if block ~ ~ ~ lime_wool run scoreboard players add $obj6.curr mon.count 1
 execute if block ~ ~ ~ pink_wool run scoreboard players add $obj7.curr mon.count 1
-execute if block ~ ~ ~ blue_wool run scoreboard players add $obj8.curr mon.count 1
-execute if block ~ ~ ~ purple_wool run scoreboard players add $obj9.curr mon.count 1
+execute if block ~ ~ ~ purple_wool run scoreboard players add $obj8.curr mon.count 1
+execute if block ~ ~ ~ blue_wool run scoreboard players add $obj9.curr mon.count 1
 execute if block ~ ~ ~ green_wool run scoreboard players add $obj10.curr mon.count 1
 execute if block ~ ~ ~ red_wool run scoreboard players add $obj11.curr mon.count 1
 execute if block ~ ~ ~ black_wool run scoreboard players add $obj12.curr mon.count 1
