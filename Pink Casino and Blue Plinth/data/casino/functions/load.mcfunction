@@ -9,3 +9,5 @@ scoreboard objectives add casinosummon dummy
 scoreboard objectives add casinofinal dummy
 scoreboard objectives add casinoenter dummy
 gamerule universalAnger true
+
+scoreboard objectives add blueplinth dummy
