@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Fire Watch",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "VII - Thermic Rift"
+        },
+        "icon": {
+            "item": "minecraft:pink_wool"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:light_blue"
+}

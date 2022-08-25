@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Ruins of the Cubic King?",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "VIII - Field of the Fallen"
+        },
+        "icon": {
+            "item": "minecraft:purple_wool"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:pink"
+}

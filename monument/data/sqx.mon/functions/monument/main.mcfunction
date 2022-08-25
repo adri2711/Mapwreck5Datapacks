@@ -31,11 +31,14 @@ scoreboard players operation $total.curr mon.count -= $total.dupes mon.count
 execute unless score $bonus_obj1_placed sqx.var matches 1 positioned -6 90 134 if block ~ ~ ~ blue_ice run function sqx.mon:monument/fx/placed_fx
 execute unless score $bonus_obj1_placed sqx.var matches 1 if block -6 90 134 blue_ice run scoreboard players set $bonus_obj1_placed sqx.var 1
 
-execute unless score $bonus_obj1_placed sqx.var matches 1 positioned -8 90 129 if block ~ ~ ~ nether_quartz_ore run function sqx.mon:monument/fx/placed_fx
+execute unless score $bonus_obj2_placed sqx.var matches 1 positioned -8 90 129 if block ~ ~ ~ nether_quartz_ore run function sqx.mon:monument/fx/placed_fx
 execute unless score $bonus_obj2_placed sqx.var matches 1 if block -8 90 129 nether_quartz_ore run scoreboard players set $bonus_obj2_placed sqx.var 1
 
-execute unless score $bonus_obj1_placed sqx.var matches 1 positioned -3 90 130 if block ~ ~ ~ glowstone run function sqx.mon:monument/fx/placed_fx
+execute unless score $bonus_obj3_placed sqx.var matches 1 positioned -3 90 130 if block ~ ~ ~ glowstone run function sqx.mon:monument/fx/placed_fx
 execute unless score $bonus_obj3_placed sqx.var matches 1 if block -3 90 130 glowstone run scoreboard players set $bonus_obj3_placed sqx.var 1
+
+execute unless score $bonus_obj4_placed sqx.var matches 1 positioned -15 90 142 if block ~ ~ ~ netherite_block run function sqx.mon:monument/fx/placed_fx
+execute unless score $bonus_obj4_placed sqx.var matches 1 if block -15 90 142 netherite_block run scoreboard players set $bonus_obj4_placed sqx.var 1
 
 # ー ー ー ー ーー ・ ーー ー ー ー ー #
 

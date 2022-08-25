@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Down Where It's Wetter",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "X - Neired Abyss"
+        },
+        "icon": {
+            "item": "minecraft:green_wool"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:magenta"
+}

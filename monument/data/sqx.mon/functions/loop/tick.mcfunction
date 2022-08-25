@@ -16,6 +16,9 @@ execute as @a at @s run function sqx.mon:teleporters/main
 # One (1) Jump Boost Pad
 execute positioned 39 77 107 as @a[distance=...8] run effect give @s jump_boost 2 10 true
 
+# Dev Chest Protection
+execute as @a[gamemode=survival,x=-35,y=53,z=139,distance=..20] run kill @s
+
 # ー ー ー ー ーー ・ ーー ー ー ー ー #
 
 # Area Ambient Particles

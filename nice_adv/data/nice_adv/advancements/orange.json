@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Ink Is the New Orange",
+            "color": "gold"
+        },
+        "description": {
+            "text": "II - Painter's Paradise"
+        },
+        "icon": {
+            "item": "minecraft:orange_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:white"
+}
