@@ -17,5 +17,3 @@ attribute @s minecraft:generic.knockback_resistance modifier add 0-0-0-0-2295715
 
 scoreboard players set @s cdl.heal_queue 32
 function cd:lib/mob/heal
-
-scoreboard players set @s infestor_fx_timer -60
