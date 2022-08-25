@@ -1,4 +1,4 @@
-execute if entity @s[type=marker,tag=loot_soul_chest] run function soul_chests:tick
+execute if entity @s[type=marker] run function soul_chests:tick
 
 execute if entity @s[type=#bb:hostile,tag=chance_infest] run function infestors:chance_infect
 
