@@ -13,5 +13,5 @@ data modify storage mon:bonus_chest check2 set from block ~ ~ ~1 Items
 function sqx.mon:monument/bonus_chest/recurse1
 function sqx.mon:monument/bonus_chest/recurse2
 
-# Set Flag if Chest is Completed
-execute unless $lucky_stones_complete sqx.var matches 1 if score $lucky_stones mon.count matches 36 run scoreboard players set $lucky_stones_complete sqx.var 1
+# Set Flag if Chest is Completedx
+execute unless score $lucky_stones_complete sqx.var matches 1 if score $lucky_stones mon.count matches 36 run function sqx.mon:monument/bonus_chest/set_flags
