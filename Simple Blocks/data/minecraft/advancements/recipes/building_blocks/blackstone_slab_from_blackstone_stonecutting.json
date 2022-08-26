@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "minecraft:blackstone_slab_from_blackstone_stonecutting"
+        ]
+    }
+}

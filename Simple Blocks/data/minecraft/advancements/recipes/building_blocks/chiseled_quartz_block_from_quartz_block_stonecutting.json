@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "minecraft:chiseled_quartz_block_from_quartz_block_stonecutting"
+        ]
+    }
+}

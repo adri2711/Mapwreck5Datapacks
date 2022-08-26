@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "minecraft:purpur_pillar_from_purpur_block_stonecutting"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "minecraft:granite_slab_from_granite_stonecutting"
+        ]
+    }
+}

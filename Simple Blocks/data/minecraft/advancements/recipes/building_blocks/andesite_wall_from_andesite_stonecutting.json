@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "minecraft:andesite_wall_from_andesite_stonecutting"
+        ]
+    }
+}
