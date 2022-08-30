@@ -1,0 +1,18 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "category": "desert",
+  "effects": {
+    "sky_color": 3107977,
+    "fog_color": 5154472,
+    "water_color": 4770720,
+    "water_fog_color": 4770696,
+    "grass_color": 4018775,
+    "foliage_color": 2373186
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
