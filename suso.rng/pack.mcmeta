@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": "Extremely simple rng, by Suso. It's like C's LCG, not very random sometimes but it works."
+    }
+}
