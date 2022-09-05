@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "suso.mw5graves.death"
+              },
+              "range": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:sheep",
+          "nbt": "{Tags:[\"suso.mw5graves.grave\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "suso.mw5graves:recover/trigger"
+  }
+}

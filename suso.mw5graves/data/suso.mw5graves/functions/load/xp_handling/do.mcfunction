@@ -1,0 +1,2 @@
+execute store result score $temp suso.mw5graves.var run data get storage suso:mw5graves working_inv.lvl
+execute if score $temp suso.mw5graves.var matches 1.. run function suso.mw5graves:load/xp_handling/loop

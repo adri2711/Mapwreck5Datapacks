@@ -1,0 +1,1 @@
+execute unless data storage suso:mw5graves {temp_item:{Count:1b}} run function suso.mw5graves:load/potions/drop

@@ -1,0 +1,2 @@
+execute if score $i suso.mw5graves.var = @s suso.mw5graves.id run data modify storage suso:mw5graves working_data set from storage suso:mw5graves working_arr[0]
+execute unless score $i suso.mw5graves.var = @s suso.mw5graves.id run function suso.mw5graves:get/search_player2

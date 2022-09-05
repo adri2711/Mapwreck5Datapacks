@@ -1,0 +1,2 @@
+execute if score @s suso.mw5graves.id = $temp_id suso.mw5graves.var at @s run function suso.mw5graves:recover/do
+execute unless score @s suso.mw5graves.id = $temp_id suso.mw5graves.var at @s run function suso.mw5graves:aesthetic/bad

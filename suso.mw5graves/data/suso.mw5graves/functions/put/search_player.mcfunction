@@ -1,0 +1,2 @@
+execute if score $i suso.mw5graves.var = @s suso.mw5graves.id run function suso.mw5graves:put/found_player
+execute unless score $i suso.mw5graves.var = @s suso.mw5graves.id run function suso.mw5graves:put/search_player2
