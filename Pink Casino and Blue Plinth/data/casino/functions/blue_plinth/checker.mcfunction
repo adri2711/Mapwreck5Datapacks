@@ -1,0 +1,2 @@
+execute positioned -217.52 122.00 -320.36 if entity @a[distance=..10] run function casino:blue_plinth/looker
+execute positioned -218 122.75 -321 run particle minecraft:end_rod ~ ~ ~ 0.2 0.2 0.2 0 1 force
