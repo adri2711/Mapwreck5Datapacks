@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\'{\"text\":\"Fairy Dust\",\"color\":\"light_purple\",\"italic\":false}\',Lore:[\'{\"text\":\"Energetic I\",\"color\":\"gray\",\"italic\":false}\']},HideFlags:1,CustomEnchantments:[{id:\"energetic\",lvl:1b}],Enchantments:[{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:.1,Operation:2,UUID:[I;1257010930,-230210505,-1537568286,267988323],Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cartographer_mob_abilities:death_test/test"
+        }
+      ]
+    },
+    
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cartographer_custom_statuses:death_test/test"
+        }
+      ]
+    }
+  ]
+}
