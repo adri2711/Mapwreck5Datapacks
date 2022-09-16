@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "(Faust) Dealt with the Devil",
+            "color": "dark_gray"
+        },
+        "description": {
+            "text": "XII - The Mephistophelian"
+        },
+        "icon": {
+            "item": "minecraft:black_wool"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:red"
+}

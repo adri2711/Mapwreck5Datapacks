@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "It's Traditional"
+        },
+        "description": {
+            "text": "Obtain a block of netherite"
+        },
+        "icon": {
+            "item": "minecraft:netherite_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:monument"
+}

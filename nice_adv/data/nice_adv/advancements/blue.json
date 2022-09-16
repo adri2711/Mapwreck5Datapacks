@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Deep Dark Blue",
+            "color": "dark_blue"
+        },
+        "description": {
+            "text": "IX - Ruins Shangri-la"
+        },
+        "icon": {
+            "item": "minecraft:blue_wool"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:light_blue"
+}

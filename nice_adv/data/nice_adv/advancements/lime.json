@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Cliffisde Conqueror",
+            "color": "green"
+        },
+        "description": {
+            "text": "VI - Remote Highlands"
+        },
+        "icon": {
+            "item": "minecraft:lime_wool"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:magenta"
+}

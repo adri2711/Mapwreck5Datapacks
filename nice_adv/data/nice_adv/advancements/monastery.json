@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Remote Recluse"
+        },
+        "description": {
+            "text": "Cliffside Monastery"
+        },
+        "icon": {
+            "item": "minecraft:mud_bricks"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:red"
+}

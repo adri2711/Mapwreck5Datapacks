@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "V for Victory!"
+        },
+        "description": {
+            "text": "Beat the map"
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:monument"
+}

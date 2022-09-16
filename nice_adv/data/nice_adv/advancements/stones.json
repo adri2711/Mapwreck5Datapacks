@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Second Time's a Charm"
+        },
+        "description": {
+            "text": "Find all lucky stones"
+        },
+        "icon": {
+            "item": "minecraft:stone_button"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nice_adv:monument"
+}
