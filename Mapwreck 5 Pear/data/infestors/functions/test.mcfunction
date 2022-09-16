@@ -1,0 +1,1 @@
+execute if data storage ca.death Data.Infested at @s run function infestors:behavior/spawn_infestor
