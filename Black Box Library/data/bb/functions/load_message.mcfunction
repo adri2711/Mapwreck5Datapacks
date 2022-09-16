@@ -6,5 +6,5 @@
 # Description: Load message for BBL.
 ########################################
 
-tellraw @a [{"text":"  ❱ ","color":"#FFE0A3"},{"text":"Black Box Library by RockNRed (V?.? (red doesn't know how to semantic version))","color":"#F04FF0","hoverEvent":{"action":"show_text","contents":[{"text":"A library module by RockNRed and PearUhDox. Required for all datapacks. Handles miscellaneous functions and utilites.","color":"#FFE0A3","italic":true}]}},{"text":" installed!","color":"#FFE0A3"}]
+#tellraw @a [{"text":"  ❱ ","color":"#FFE0A3"},{"text":"Black Box Library by RockNRed (V?.? (red doesn't know how to semantic version))","color":"#F04FF0","hoverEvent":{"action":"show_text","contents":[{"text":"A library module by RockNRed and PearUhDox. Required for all datapacks. Handles miscellaneous functions and utilites.","color":"#FFE0A3","italic":true}]}},{"text":" installed!","color":"#FFE0A3"}]
 tag @a add bbl_check

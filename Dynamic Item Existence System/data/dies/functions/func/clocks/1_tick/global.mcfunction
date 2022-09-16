@@ -7,4 +7,4 @@
 execute as @e[type=item,tag=!dies.registered] at @s run function dies:func/register_item
 
 #Enable trigger for players in creative
-scoreboard players enable @a[gamemode=creative] dies.trigger
+#scoreboard players enable @a[gamemode=creative] dies.trigger

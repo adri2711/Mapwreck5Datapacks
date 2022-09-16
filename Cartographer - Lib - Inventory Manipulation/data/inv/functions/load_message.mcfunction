@@ -6,5 +6,5 @@
 # Description: Load message for Inventory Manipulation
 ########################################
 
-tellraw @a [{"text":"  ❱ ","color":"#FFE0A3"},{"text":"Inventory Manipulation by McTsts (V1.0)","color":"#F04FF0","hoverEvent":{"action":"show_text","contents":[{"text":"A library module by McTsts. Required for all datapacks. Allows for player inventory saving and loading.","color":"#FFE0A3","italic":true}]}},{"text":" installed!","color":"#FFE0A3"}]
+#tellraw @a [{"text":"  ❱ ","color":"#FFE0A3"},{"text":"Inventory Manipulation by McTsts (V1.0)","color":"#F04FF0","hoverEvent":{"action":"show_text","contents":[{"text":"A library module by McTsts. Required for all datapacks. Allows for player inventory saving and loading.","color":"#FFE0A3","italic":true}]}},{"text":" installed!","color":"#FFE0A3"}]
 tag @a add inv_check

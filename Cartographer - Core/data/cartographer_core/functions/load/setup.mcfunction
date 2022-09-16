@@ -25,8 +25,8 @@ scoreboard players set $repair_stations ca.installed 0
 scoreboard objectives add ca.mutex dummy
 
 #Trigger scoreboards for menus and giving lexica.
-scoreboard objectives add lexica trigger
-scoreboard objectives add menu trigger
+#scoreboard objectives add lexica trigger
+#scoreboard objectives add menu trigger
 
 #Initialize Cloud Wolf's Math Lite Datapack
 function cartographer_core:helper/math/zprivate/init
@@ -180,9 +180,9 @@ scoreboard objectives add ca.lexica_trig trigger
 
 scoreboard objectives add ca.use_lectern minecraft.custom:minecraft.interact_with_lectern
 
-#Create options trigger score (for player options)
-scoreboard objectives add ca.options_trig trigger
-scoreboard players enable @a ca.options_trig
+#Create options trigger score (for player options) are we fucking insane or what
+#scoreboard objectives add ca.options_trig trigger
+#scoreboard players enable @a ca.options_trig
 
 #Create the anvil, enchant table, and grindstone destruction scores.
 scoreboard objectives add ca.use_anvil minecraft.custom:minecraft.interact_with_anvil

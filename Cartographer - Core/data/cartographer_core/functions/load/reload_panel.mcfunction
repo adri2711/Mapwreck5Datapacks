@@ -9,7 +9,7 @@
 scoreboard players set $gmr_freeze ca.mutex 1
 gamerule sendCommandFeedback false
 
-scoreboard players enable @a ca.options_trig 
+#scoreboard players enable @a ca.options_trig pear wtf
 
 execute as @a at @s run playsound minecraft:item.book.page_turn master @s ~ ~ ~ 1 0.75
 
