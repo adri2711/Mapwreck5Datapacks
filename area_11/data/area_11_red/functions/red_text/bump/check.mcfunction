@@ -1,0 +1,1 @@
+execute if predicate area_11_red:potion_effects/has_invisibility run function area_11_red:red_text/bump/apply_effects

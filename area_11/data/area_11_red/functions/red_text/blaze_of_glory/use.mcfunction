@@ -1,0 +1,2 @@
+execute unless score @s area_11.red.red_text.blaze_of_glory.cooldown matches -999..999 run scoreboard players set @s area_11.red.red_text.blaze_of_glory.cooldown 0
+execute if score @s area_11.red.red_text.blaze_of_glory.cooldown matches 0 run function area_11_red:red_text/blaze_of_glory/trigger_thorns

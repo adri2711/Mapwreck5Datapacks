@@ -1,0 +1,2 @@
+execute if score @p[tag=entityid.attacker] area_11.red.red_text.misty_touch matches 1.. run function area_11_red:red_text/misty_touch/mob_hit
+execute if score @p[tag=entityid.attacker] area_11.red.red_text.draining_edge matches 1.. run function area_11_red:red_text/draining_edge/mob_hit

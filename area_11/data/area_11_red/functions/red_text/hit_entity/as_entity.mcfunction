@@ -1,0 +1,1 @@
+execute if entity @s[type=#bb:hostile] run function area_11_red:red_text/hit_entity/is_hostile

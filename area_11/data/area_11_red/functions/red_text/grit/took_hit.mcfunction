@@ -1,0 +1,2 @@
+execute unless score @s area_11.red.red_text.grit.cooldown matches -999..999 run scoreboard players set @s area_11.red.red_text.grit.cooldown 0
+execute if score @s[tag=has_full_health] area_11.red.red_text.grit.cooldown matches 0 run function area_11_red:red_text/grit/apply_effect

@@ -1,0 +1,1 @@
+execute unless entity @e[type=marker,tag=container,distance=..0.1] run summon marker ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["container"]}

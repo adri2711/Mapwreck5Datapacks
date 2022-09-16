@@ -1,0 +1,1 @@
+execute if block 31 165 138 calcite unless block 31 167 138 chest run function area_11_red:place_chest

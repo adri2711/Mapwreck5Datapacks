@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^3 as @e[type=experience_orb,limit=1,sort=nearest,distance=..3] at @s run function area_11_red:red_text/creativity/found_spawner

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_glazed_terracotta",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Soulk\",\"italic\":false}'},CustomModelData:11005,BlockStateTag:{facing:\"west\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+scoreboard players set @s area_11.red.red_text.test 0
+scoreboard players set @s area_11.red.red_text.creativity 0
+scoreboard players set @s area_11.red.red_text.misty_touch 0
+scoreboard players set @s area_11.red.red_text.warmth 0
+scoreboard players set @s area_11.red.red_text.slayer_oath 0
+scoreboard players set @s area_11.red.red_text.draining_edge 0
+scoreboard players set @s area_11.red.red_text.hitman 0
+scoreboard players set @s area_11.red.red_text.better_half 0
+scoreboard players set @s area_11.red.red_text.last_laugh 0
+scoreboard players set @s area_11.red.red_text.sin 0
+scoreboard players set @s area_11.red.red_text.thick_blood 0
+scoreboard players set @s area_11.red.red_text.stride 0
+scoreboard players set @s area_11.red.red_text.fundamental 0
+scoreboard players set @s area_11.red.red_text.consumption 0
+scoreboard players set @s area_11.red.red_text.liberation 0
+scoreboard players set @s area_11.red.red_text.grit 0
+scoreboard players set @s area_11.red.red_text.snowball 0
+scoreboard players set @s area_11.red.red_text.shield 0
+scoreboard players set @s area_11.red.red_text.cut_above 0
+scoreboard players set @s area_11.red.red_text.200_years 0
+scoreboard players set @s area_11.red.red_text.exterminator 0
+scoreboard players set @s area_11.red.red_text.obsession 0
+scoreboard players set @s area_11.red.red_text.blaze_of_glory 0
+scoreboard players set @s area_11.red.red_text.bump 0
+scoreboard players set @s area_11.red.red_text.wings 0
+

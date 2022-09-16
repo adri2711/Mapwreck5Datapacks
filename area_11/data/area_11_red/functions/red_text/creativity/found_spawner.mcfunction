@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ air run function area_11_red:red_text/creativity/place_spawner

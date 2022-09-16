@@ -1,0 +1,10 @@
+execute if score @s area_11.red.red_text.stride.max_hp matches 2..3 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.1 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 4..5 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.2 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 6..7 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.3 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 8..9 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.4 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 10..11 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.5 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 12..13 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.6 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 14..15 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.7 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 16..17 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.8 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 18..19 run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 0.9 add
+execute if score @s area_11.red.red_text.stride.max_hp matches 20.. run attribute @s minecraft:generic.knockback_resistance modifier add 0-2-9-1-2 "Unbreakable Stride Bonus KBR" 1 add

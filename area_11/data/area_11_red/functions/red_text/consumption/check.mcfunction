@@ -1,0 +1,1 @@
+execute if score @s area_11.red.effect_count.total matches 1.. run function area_11_red:red_text/consumption/clear_effect

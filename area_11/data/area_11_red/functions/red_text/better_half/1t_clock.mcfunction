@@ -1,0 +1,1 @@
+execute if entity @s[tag=better_half_limbo] run function area_11_red:red_text/better_half/limbo

@@ -1,0 +1,2 @@
+execute if score @s area_11.red.red_text.slayer_oath matches 1.. run function area_11_red:red_text/slayer_oath/apply_bonus
+execute if score @s area_11.red.red_text.slayer_oath matches 0 run attribute @s minecraft:generic.attack_speed modifier remove 8-7-3-7-9

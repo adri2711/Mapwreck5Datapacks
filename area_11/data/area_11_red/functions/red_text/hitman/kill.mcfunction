@@ -1,0 +1,1 @@
+execute unless predicate area_11_red:potion_effects/has_absorption run effect give @s minecraft:absorption 30 0 true
