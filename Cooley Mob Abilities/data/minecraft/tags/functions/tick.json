@@ -1,7 +1,1 @@
-{
-	"replace":false,
-	"values": [
-		"cooleymob:loop"
-	]
-
-}
+{"values":["cooleymob:loop"],"replace":false}
