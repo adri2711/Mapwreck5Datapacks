@@ -11,6 +11,6 @@ execute as @s[nbt={SelectedItem:{tag:{co_blackdevil:1}}}] run function cooley:bl
 execute as @s[tag=co_hyperbounce] run function cooley:orange/bounceloop
 execute as @s[nbt={Inventory:[{Slot:100b,tag:{co_swiftsludge:1}}]}] at @s run function cooley:magenta/swiftsludge
 
-execute if predicate cooley:swamp run effect give @s wither 1 1 true
+execute if predicate cooley:swamp if block ~ ~ ~ water run effect give @s wither 1 1 true
 execute if predicate cooley:sunflower_plains run effect give @s darkness 1 1 true
 
