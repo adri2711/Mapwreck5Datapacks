@@ -21,6 +21,6 @@ scoreboard players set $100tick 100stop 0
 scoreboard players set $5tick casinofinal 0
 scoreboard players set $casino casinoenter 0
 
-execute as @e[type=wither_skeleton,tag=casino] run data merge entity @s {Pos:[0.0d,-2711.0d,0.0d],Health:0f}
+data merge entity 71500000-5555-0000-0000-000000000000 {Pos:[0.0d,-2711.0d,0.0d],Health:0f}
 kill @e[type=item,nbt={Item:{id:"minecraft:netherite_scrap",tag:{casinokill:1b}}}]
 stopsound @a record minecraft:music_disc.stal

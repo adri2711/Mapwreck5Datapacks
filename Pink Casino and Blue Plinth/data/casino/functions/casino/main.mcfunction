@@ -9,7 +9,7 @@ execute positioned 144 192 -242 if entity @a[distance=..2] run function casino:c
 
 # Execute as the boss, setting a score if alive
 scoreboard players set $boss_alive casinosummon 0
-execute as @e[type=wither_skeleton,tag=casino] run function casino:casino/boss/main
+execute as 71500000-5555-0000-0000-000000000000 run function casino:casino/boss/main
 
 #Detects when the boss dies
 execute if score $boss_alive casinosummon matches 0 run function casino:casino/boss/death
