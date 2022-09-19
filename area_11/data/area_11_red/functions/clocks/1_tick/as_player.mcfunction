@@ -26,3 +26,6 @@ execute if score @s area_11.red.red_text.wings matches 1.. rotated ~ 0 as @s run
 
 #Shield
 function area_11_red:red_text/shield/1t_clock
+
+# Container check thingy of doom
+function area_11_red:container_handling/main

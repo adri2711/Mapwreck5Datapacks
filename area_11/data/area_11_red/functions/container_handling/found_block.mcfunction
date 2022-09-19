@@ -1,1 +1,2 @@
-execute unless entity @e[type=marker,tag=container,distance=..0.1] run summon marker ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["container"]}
+execute store result score $temp area_11.red.master run data remove block ~ ~ ~ Items[{tag:{container_forbidden:1}}]
+execute if score $temp area_11.red.master matches 1.. run scoreboard players set $moved_telescope_to_inventory area_11.red.master 1

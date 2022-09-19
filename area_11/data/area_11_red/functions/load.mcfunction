@@ -56,3 +56,8 @@ scoreboard objectives add area_11.red.red_text.bump dummy
 scoreboard objectives add area_11.red.red_text.wings dummy
 
 scoreboard objectives add area_11.red.equips.dropped_spyglass minecraft.dropped:minecraft.spyglass
+
+scoreboard objectives add container_height dummy
+scoreboard objectives add container_timer dummy
+scoreboard objectives add prev_yaw dummy
+scoreboard objectives add curr_yaw dummy

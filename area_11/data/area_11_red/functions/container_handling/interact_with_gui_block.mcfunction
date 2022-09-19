@@ -1,387 +1,389 @@
 #running single layer check on all gui blocks on the layer of the gui that was interacted with
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-64=true}}] positioned ~-5 -64 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-63=true}}] positioned ~-5 -63 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-62=true}}] positioned ~-5 -62 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-61=true}}] positioned ~-5 -61 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-60=true}}] positioned ~-5 -60 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-59=true}}] positioned ~-5 -59 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-58=true}}] positioned ~-5 -58 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-57=true}}] positioned ~-5 -57 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-56=true}}] positioned ~-5 -56 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-55=true}}] positioned ~-5 -55 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-54=true}}] positioned ~-5 -54 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-53=true}}] positioned ~-5 -53 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-52=true}}] positioned ~-5 -52 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-51=true}}] positioned ~-5 -51 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-50=true}}] positioned ~-5 -50 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-49=true}}] positioned ~-5 -49 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-48=true}}] positioned ~-5 -48 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-47=true}}] positioned ~-5 -47 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-46=true}}] positioned ~-5 -46 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-45=true}}] positioned ~-5 -45 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-44=true}}] positioned ~-5 -44 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-43=true}}] positioned ~-5 -43 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-42=true}}] positioned ~-5 -42 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-41=true}}] positioned ~-5 -41 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-40=true}}] positioned ~-5 -40 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-39=true}}] positioned ~-5 -39 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-38=true}}] positioned ~-5 -38 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-37=true}}] positioned ~-5 -37 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-36=true}}] positioned ~-5 -36 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-35=true}}] positioned ~-5 -35 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-34=true}}] positioned ~-5 -34 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-33=true}}] positioned ~-5 -33 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-32=true}}] positioned ~-5 -32 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-31=true}}] positioned ~-5 -31 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-30=true}}] positioned ~-5 -30 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-29=true}}] positioned ~-5 -29 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-28=true}}] positioned ~-5 -28 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-27=true}}] positioned ~-5 -27 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-26=true}}] positioned ~-5 -26 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-25=true}}] positioned ~-5 -25 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-24=true}}] positioned ~-5 -24 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-23=true}}] positioned ~-5 -23 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-22=true}}] positioned ~-5 -22 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-21=true}}] positioned ~-5 -21 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-20=true}}] positioned ~-5 -20 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-19=true}}] positioned ~-5 -19 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-18=true}}] positioned ~-5 -18 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-17=true}}] positioned ~-5 -17 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-16=true}}] positioned ~-5 -16 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-15=true}}] positioned ~-5 -15 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-14=true}}] positioned ~-5 -14 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-13=true}}] positioned ~-5 -13 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-12=true}}] positioned ~-5 -12 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-11=true}}] positioned ~-5 -11 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-10=true}}] positioned ~-5 -10 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-9=true}}] positioned ~-5 -9 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-8=true}}] positioned ~-5 -8 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-7=true}}] positioned ~-5 -7 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-6=true}}] positioned ~-5 -6 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-5=true}}] positioned ~-5 -5 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-4=true}}] positioned ~-5 -4 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-3=true}}] positioned ~-5 -3 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-2=true}}] positioned ~-5 -2 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-1=true}}] positioned ~-5 -1 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y0=true}}] positioned ~-5 0 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y1=true}}] positioned ~-5 1 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y2=true}}] positioned ~-5 2 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y3=true}}] positioned ~-5 3 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y4=true}}] positioned ~-5 4 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y5=true}}] positioned ~-5 5 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y6=true}}] positioned ~-5 6 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y7=true}}] positioned ~-5 7 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y8=true}}] positioned ~-5 8 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y9=true}}] positioned ~-5 9 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y10=true}}] positioned ~-5 10 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y11=true}}] positioned ~-5 11 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y12=true}}] positioned ~-5 12 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y13=true}}] positioned ~-5 13 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y14=true}}] positioned ~-5 14 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y15=true}}] positioned ~-5 15 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y16=true}}] positioned ~-5 16 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y17=true}}] positioned ~-5 17 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y18=true}}] positioned ~-5 18 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y19=true}}] positioned ~-5 19 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y20=true}}] positioned ~-5 20 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y21=true}}] positioned ~-5 21 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y22=true}}] positioned ~-5 22 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y23=true}}] positioned ~-5 23 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y24=true}}] positioned ~-5 24 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y25=true}}] positioned ~-5 25 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y26=true}}] positioned ~-5 26 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y27=true}}] positioned ~-5 27 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y28=true}}] positioned ~-5 28 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y29=true}}] positioned ~-5 29 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y30=true}}] positioned ~-5 30 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y31=true}}] positioned ~-5 31 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y32=true}}] positioned ~-5 32 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y33=true}}] positioned ~-5 33 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y34=true}}] positioned ~-5 34 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y35=true}}] positioned ~-5 35 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y36=true}}] positioned ~-5 36 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y37=true}}] positioned ~-5 37 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y38=true}}] positioned ~-5 38 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y39=true}}] positioned ~-5 39 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y40=true}}] positioned ~-5 40 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y41=true}}] positioned ~-5 41 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y42=true}}] positioned ~-5 42 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y43=true}}] positioned ~-5 43 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y44=true}}] positioned ~-5 44 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y45=true}}] positioned ~-5 45 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y46=true}}] positioned ~-5 46 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y47=true}}] positioned ~-5 47 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y48=true}}] positioned ~-5 48 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y49=true}}] positioned ~-5 49 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y50=true}}] positioned ~-5 50 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y51=true}}] positioned ~-5 51 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y52=true}}] positioned ~-5 52 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y53=true}}] positioned ~-5 53 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y54=true}}] positioned ~-5 54 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y55=true}}] positioned ~-5 55 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y56=true}}] positioned ~-5 56 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y57=true}}] positioned ~-5 57 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y58=true}}] positioned ~-5 58 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y59=true}}] positioned ~-5 59 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y60=true}}] positioned ~-5 60 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y61=true}}] positioned ~-5 61 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y62=true}}] positioned ~-5 62 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y63=true}}] positioned ~-5 63 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y64=true}}] positioned ~-5 64 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y65=true}}] positioned ~-5 65 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y66=true}}] positioned ~-5 66 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y67=true}}] positioned ~-5 67 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y68=true}}] positioned ~-5 68 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y69=true}}] positioned ~-5 69 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y70=true}}] positioned ~-5 70 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y71=true}}] positioned ~-5 71 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y72=true}}] positioned ~-5 72 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y73=true}}] positioned ~-5 73 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y74=true}}] positioned ~-5 74 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y75=true}}] positioned ~-5 75 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y76=true}}] positioned ~-5 76 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y77=true}}] positioned ~-5 77 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y78=true}}] positioned ~-5 78 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y79=true}}] positioned ~-5 79 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y80=true}}] positioned ~-5 80 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y81=true}}] positioned ~-5 81 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y82=true}}] positioned ~-5 82 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y83=true}}] positioned ~-5 83 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y84=true}}] positioned ~-5 84 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y85=true}}] positioned ~-5 85 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y86=true}}] positioned ~-5 86 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y87=true}}] positioned ~-5 87 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y88=true}}] positioned ~-5 88 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y89=true}}] positioned ~-5 89 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y90=true}}] positioned ~-5 90 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y91=true}}] positioned ~-5 91 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y92=true}}] positioned ~-5 92 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y93=true}}] positioned ~-5 93 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y94=true}}] positioned ~-5 94 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y95=true}}] positioned ~-5 95 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y96=true}}] positioned ~-5 96 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y97=true}}] positioned ~-5 97 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y98=true}}] positioned ~-5 98 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y99=true}}] positioned ~-5 99 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y100=true}}] positioned ~-5 100 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y101=true}}] positioned ~-5 101 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y102=true}}] positioned ~-5 102 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y103=true}}] positioned ~-5 103 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y104=true}}] positioned ~-5 104 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y105=true}}] positioned ~-5 105 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y106=true}}] positioned ~-5 106 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y107=true}}] positioned ~-5 107 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y108=true}}] positioned ~-5 108 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y109=true}}] positioned ~-5 109 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y110=true}}] positioned ~-5 110 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y111=true}}] positioned ~-5 111 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y112=true}}] positioned ~-5 112 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y113=true}}] positioned ~-5 113 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y114=true}}] positioned ~-5 114 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y115=true}}] positioned ~-5 115 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y116=true}}] positioned ~-5 116 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y117=true}}] positioned ~-5 117 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y118=true}}] positioned ~-5 118 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y119=true}}] positioned ~-5 119 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y120=true}}] positioned ~-5 120 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y121=true}}] positioned ~-5 121 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y122=true}}] positioned ~-5 122 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y123=true}}] positioned ~-5 123 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y124=true}}] positioned ~-5 124 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y125=true}}] positioned ~-5 125 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y126=true}}] positioned ~-5 126 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y127=true}}] positioned ~-5 127 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y128=true}}] positioned ~-5 128 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y129=true}}] positioned ~-5 129 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y130=true}}] positioned ~-5 130 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y131=true}}] positioned ~-5 131 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y132=true}}] positioned ~-5 132 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y133=true}}] positioned ~-5 133 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y134=true}}] positioned ~-5 134 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y135=true}}] positioned ~-5 135 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y136=true}}] positioned ~-5 136 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y137=true}}] positioned ~-5 137 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y138=true}}] positioned ~-5 138 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y139=true}}] positioned ~-5 139 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y140=true}}] positioned ~-5 140 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y141=true}}] positioned ~-5 141 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y142=true}}] positioned ~-5 142 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y143=true}}] positioned ~-5 143 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y144=true}}] positioned ~-5 144 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y145=true}}] positioned ~-5 145 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y146=true}}] positioned ~-5 146 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y147=true}}] positioned ~-5 147 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y148=true}}] positioned ~-5 148 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y149=true}}] positioned ~-5 149 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y150=true}}] positioned ~-5 150 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y151=true}}] positioned ~-5 151 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y152=true}}] positioned ~-5 152 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y153=true}}] positioned ~-5 153 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y154=true}}] positioned ~-5 154 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y155=true}}] positioned ~-5 155 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y156=true}}] positioned ~-5 156 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y157=true}}] positioned ~-5 157 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y158=true}}] positioned ~-5 158 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y159=true}}] positioned ~-5 159 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y160=true}}] positioned ~-5 160 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y161=true}}] positioned ~-5 161 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y162=true}}] positioned ~-5 162 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y163=true}}] positioned ~-5 163 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y164=true}}] positioned ~-5 164 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y165=true}}] positioned ~-5 165 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y166=true}}] positioned ~-5 166 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y167=true}}] positioned ~-5 167 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y168=true}}] positioned ~-5 168 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y169=true}}] positioned ~-5 169 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y170=true}}] positioned ~-5 170 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y171=true}}] positioned ~-5 171 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y172=true}}] positioned ~-5 172 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y173=true}}] positioned ~-5 173 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y174=true}}] positioned ~-5 174 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y175=true}}] positioned ~-5 175 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y176=true}}] positioned ~-5 176 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y177=true}}] positioned ~-5 177 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y178=true}}] positioned ~-5 178 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y179=true}}] positioned ~-5 179 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y180=true}}] positioned ~-5 180 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y181=true}}] positioned ~-5 181 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y182=true}}] positioned ~-5 182 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y183=true}}] positioned ~-5 183 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y184=true}}] positioned ~-5 184 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y185=true}}] positioned ~-5 185 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y186=true}}] positioned ~-5 186 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y187=true}}] positioned ~-5 187 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y188=true}}] positioned ~-5 188 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y189=true}}] positioned ~-5 189 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y190=true}}] positioned ~-5 190 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y191=true}}] positioned ~-5 191 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y192=true}}] positioned ~-5 192 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y193=true}}] positioned ~-5 193 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y194=true}}] positioned ~-5 194 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y195=true}}] positioned ~-5 195 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y196=true}}] positioned ~-5 196 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y197=true}}] positioned ~-5 197 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y198=true}}] positioned ~-5 198 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y199=true}}] positioned ~-5 199 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y200=true}}] positioned ~-5 200 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y201=true}}] positioned ~-5 201 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y202=true}}] positioned ~-5 202 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y203=true}}] positioned ~-5 203 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y204=true}}] positioned ~-5 204 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y205=true}}] positioned ~-5 205 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y206=true}}] positioned ~-5 206 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y207=true}}] positioned ~-5 207 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y208=true}}] positioned ~-5 208 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y209=true}}] positioned ~-5 209 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y210=true}}] positioned ~-5 210 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y211=true}}] positioned ~-5 211 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y212=true}}] positioned ~-5 212 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y213=true}}] positioned ~-5 213 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y214=true}}] positioned ~-5 214 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y215=true}}] positioned ~-5 215 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y216=true}}] positioned ~-5 216 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y217=true}}] positioned ~-5 217 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y218=true}}] positioned ~-5 218 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y219=true}}] positioned ~-5 219 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y220=true}}] positioned ~-5 220 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y221=true}}] positioned ~-5 221 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y222=true}}] positioned ~-5 222 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y223=true}}] positioned ~-5 223 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y224=true}}] positioned ~-5 224 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y225=true}}] positioned ~-5 225 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y226=true}}] positioned ~-5 226 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y227=true}}] positioned ~-5 227 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y228=true}}] positioned ~-5 228 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y229=true}}] positioned ~-5 229 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y230=true}}] positioned ~-5 230 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y231=true}}] positioned ~-5 231 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y232=true}}] positioned ~-5 232 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y233=true}}] positioned ~-5 233 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y234=true}}] positioned ~-5 234 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y235=true}}] positioned ~-5 235 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y236=true}}] positioned ~-5 236 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y237=true}}] positioned ~-5 237 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y238=true}}] positioned ~-5 238 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y239=true}}] positioned ~-5 239 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y240=true}}] positioned ~-5 240 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y241=true}}] positioned ~-5 241 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y242=true}}] positioned ~-5 242 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y243=true}}] positioned ~-5 243 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y244=true}}] positioned ~-5 244 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y245=true}}] positioned ~-5 245 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y246=true}}] positioned ~-5 246 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y247=true}}] positioned ~-5 247 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y248=true}}] positioned ~-5 248 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y249=true}}] positioned ~-5 249 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y250=true}}] positioned ~-5 250 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y251=true}}] positioned ~-5 251 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y252=true}}] positioned ~-5 252 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y253=true}}] positioned ~-5 253 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y254=true}}] positioned ~-5 254 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y255=true}}] positioned ~-5 255 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y256=true}}] positioned ~-5 256 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y257=true}}] positioned ~-5 257 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y258=true}}] positioned ~-5 258 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y259=true}}] positioned ~-5 259 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y260=true}}] positioned ~-5 260 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y261=true}}] positioned ~-5 261 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y262=true}}] positioned ~-5 262 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y263=true}}] positioned ~-5 263 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y264=true}}] positioned ~-5 264 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y265=true}}] positioned ~-5 265 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y266=true}}] positioned ~-5 266 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y267=true}}] positioned ~-5 267 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y268=true}}] positioned ~-5 268 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y269=true}}] positioned ~-5 269 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y270=true}}] positioned ~-5 270 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y271=true}}] positioned ~-5 271 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y272=true}}] positioned ~-5 272 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y273=true}}] positioned ~-5 273 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y274=true}}] positioned ~-5 274 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y275=true}}] positioned ~-5 275 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y276=true}}] positioned ~-5 276 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y277=true}}] positioned ~-5 277 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y278=true}}] positioned ~-5 278 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y279=true}}] positioned ~-5 279 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y280=true}}] positioned ~-5 280 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y281=true}}] positioned ~-5 281 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y282=true}}] positioned ~-5 282 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y283=true}}] positioned ~-5 283 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y284=true}}] positioned ~-5 284 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y285=true}}] positioned ~-5 285 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y286=true}}] positioned ~-5 286 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y287=true}}] positioned ~-5 287 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y288=true}}] positioned ~-5 288 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y289=true}}] positioned ~-5 289 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y290=true}}] positioned ~-5 290 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y291=true}}] positioned ~-5 291 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y292=true}}] positioned ~-5 292 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y293=true}}] positioned ~-5 293 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y294=true}}] positioned ~-5 294 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y295=true}}] positioned ~-5 295 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y296=true}}] positioned ~-5 296 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y297=true}}] positioned ~-5 297 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y298=true}}] positioned ~-5 298 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y299=true}}] positioned ~-5 299 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y300=true}}] positioned ~-5 300 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y301=true}}] positioned ~-5 301 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y302=true}}] positioned ~-5 302 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y303=true}}] positioned ~-5 303 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y304=true}}] positioned ~-5 304 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y305=true}}] positioned ~-5 305 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y306=true}}] positioned ~-5 306 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y307=true}}] positioned ~-5 307 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y308=true}}] positioned ~-5 308 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y309=true}}] positioned ~-5 309 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y310=true}}] positioned ~-5 310 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y311=true}}] positioned ~-5 311 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y312=true}}] positioned ~-5 312 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y313=true}}] positioned ~-5 313 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y314=true}}] positioned ~-5 314 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y315=true}}] positioned ~-5 315 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y316=true}}] positioned ~-5 316 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y317=true}}] positioned ~-5 317 ~-5 run function area_11_red:container_handling/find_block
-execute if entity @s[advancements={area_11_red:interact_with_gui_block={y318=true}}] positioned ~-5 318 ~-5 run function area_11_red:container_handling/find_block
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-64=true}}] positioned ~-5 -64 ~-5 run scoreboard players set @s container_height -64
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-63=true}}] positioned ~-5 -63 ~-5 run scoreboard players set @s container_height -63
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-62=true}}] positioned ~-5 -62 ~-5 run scoreboard players set @s container_height -62
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-61=true}}] positioned ~-5 -61 ~-5 run scoreboard players set @s container_height -61
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-60=true}}] positioned ~-5 -60 ~-5 run scoreboard players set @s container_height -60
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-59=true}}] positioned ~-5 -59 ~-5 run scoreboard players set @s container_height -59
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-58=true}}] positioned ~-5 -58 ~-5 run scoreboard players set @s container_height -58
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-57=true}}] positioned ~-5 -57 ~-5 run scoreboard players set @s container_height -57
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-56=true}}] positioned ~-5 -56 ~-5 run scoreboard players set @s container_height -56
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-55=true}}] positioned ~-5 -55 ~-5 run scoreboard players set @s container_height -55
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-54=true}}] positioned ~-5 -54 ~-5 run scoreboard players set @s container_height -54
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-53=true}}] positioned ~-5 -53 ~-5 run scoreboard players set @s container_height -53
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-52=true}}] positioned ~-5 -52 ~-5 run scoreboard players set @s container_height -52
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-51=true}}] positioned ~-5 -51 ~-5 run scoreboard players set @s container_height -51
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-50=true}}] positioned ~-5 -50 ~-5 run scoreboard players set @s container_height -50
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-49=true}}] positioned ~-5 -49 ~-5 run scoreboard players set @s container_height -49
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-48=true}}] positioned ~-5 -48 ~-5 run scoreboard players set @s container_height -48
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-47=true}}] positioned ~-5 -47 ~-5 run scoreboard players set @s container_height -47
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-46=true}}] positioned ~-5 -46 ~-5 run scoreboard players set @s container_height -46
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-45=true}}] positioned ~-5 -45 ~-5 run scoreboard players set @s container_height -45
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-44=true}}] positioned ~-5 -44 ~-5 run scoreboard players set @s container_height -44
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-43=true}}] positioned ~-5 -43 ~-5 run scoreboard players set @s container_height -43
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-42=true}}] positioned ~-5 -42 ~-5 run scoreboard players set @s container_height -42
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-41=true}}] positioned ~-5 -41 ~-5 run scoreboard players set @s container_height -41
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-40=true}}] positioned ~-5 -40 ~-5 run scoreboard players set @s container_height -40
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-39=true}}] positioned ~-5 -39 ~-5 run scoreboard players set @s container_height -39
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-38=true}}] positioned ~-5 -38 ~-5 run scoreboard players set @s container_height -38
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-37=true}}] positioned ~-5 -37 ~-5 run scoreboard players set @s container_height -37
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-36=true}}] positioned ~-5 -36 ~-5 run scoreboard players set @s container_height -36
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-35=true}}] positioned ~-5 -35 ~-5 run scoreboard players set @s container_height -35
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-34=true}}] positioned ~-5 -34 ~-5 run scoreboard players set @s container_height -34
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-33=true}}] positioned ~-5 -33 ~-5 run scoreboard players set @s container_height -33
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-32=true}}] positioned ~-5 -32 ~-5 run scoreboard players set @s container_height -32
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-31=true}}] positioned ~-5 -31 ~-5 run scoreboard players set @s container_height -31
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-30=true}}] positioned ~-5 -30 ~-5 run scoreboard players set @s container_height -30
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-29=true}}] positioned ~-5 -29 ~-5 run scoreboard players set @s container_height -29
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-28=true}}] positioned ~-5 -28 ~-5 run scoreboard players set @s container_height -28
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-27=true}}] positioned ~-5 -27 ~-5 run scoreboard players set @s container_height -27
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-26=true}}] positioned ~-5 -26 ~-5 run scoreboard players set @s container_height -26
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-25=true}}] positioned ~-5 -25 ~-5 run scoreboard players set @s container_height -25
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-24=true}}] positioned ~-5 -24 ~-5 run scoreboard players set @s container_height -24
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-23=true}}] positioned ~-5 -23 ~-5 run scoreboard players set @s container_height -23
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-22=true}}] positioned ~-5 -22 ~-5 run scoreboard players set @s container_height -22
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-21=true}}] positioned ~-5 -21 ~-5 run scoreboard players set @s container_height -21
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-20=true}}] positioned ~-5 -20 ~-5 run scoreboard players set @s container_height -20
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-19=true}}] positioned ~-5 -19 ~-5 run scoreboard players set @s container_height -19
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-18=true}}] positioned ~-5 -18 ~-5 run scoreboard players set @s container_height -18
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-17=true}}] positioned ~-5 -17 ~-5 run scoreboard players set @s container_height -17
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-16=true}}] positioned ~-5 -16 ~-5 run scoreboard players set @s container_height -16
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-15=true}}] positioned ~-5 -15 ~-5 run scoreboard players set @s container_height -15
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-14=true}}] positioned ~-5 -14 ~-5 run scoreboard players set @s container_height -14
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-13=true}}] positioned ~-5 -13 ~-5 run scoreboard players set @s container_height -13
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-12=true}}] positioned ~-5 -12 ~-5 run scoreboard players set @s container_height -12
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-11=true}}] positioned ~-5 -11 ~-5 run scoreboard players set @s container_height -11
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-10=true}}] positioned ~-5 -10 ~-5 run scoreboard players set @s container_height -10
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-9=true}}] positioned ~-5 -9 ~-5 run scoreboard players set @s container_height -9
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-8=true}}] positioned ~-5 -8 ~-5 run scoreboard players set @s container_height -8
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-7=true}}] positioned ~-5 -7 ~-5 run scoreboard players set @s container_height -7
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-6=true}}] positioned ~-5 -6 ~-5 run scoreboard players set @s container_height -6
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-5=true}}] positioned ~-5 -5 ~-5 run scoreboard players set @s container_height -5
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-4=true}}] positioned ~-5 -4 ~-5 run scoreboard players set @s container_height -4
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-3=true}}] positioned ~-5 -3 ~-5 run scoreboard players set @s container_height -3
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-2=true}}] positioned ~-5 -2 ~-5 run scoreboard players set @s container_height -2
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y-1=true}}] positioned ~-5 -1 ~-5 run scoreboard players set @s container_height -1
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y0=true}}] positioned ~-5 0 ~-5 run scoreboard players set @s container_height 0
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y1=true}}] positioned ~-5 1 ~-5 run scoreboard players set @s container_height 1
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y2=true}}] positioned ~-5 2 ~-5 run scoreboard players set @s container_height 2
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y3=true}}] positioned ~-5 3 ~-5 run scoreboard players set @s container_height 3
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y4=true}}] positioned ~-5 4 ~-5 run scoreboard players set @s container_height 4
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y5=true}}] positioned ~-5 5 ~-5 run scoreboard players set @s container_height 5
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y6=true}}] positioned ~-5 6 ~-5 run scoreboard players set @s container_height 6
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y7=true}}] positioned ~-5 7 ~-5 run scoreboard players set @s container_height 7
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y8=true}}] positioned ~-5 8 ~-5 run scoreboard players set @s container_height 8
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y9=true}}] positioned ~-5 9 ~-5 run scoreboard players set @s container_height 9
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y10=true}}] positioned ~-5 10 ~-5 run scoreboard players set @s container_height 10
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y11=true}}] positioned ~-5 11 ~-5 run scoreboard players set @s container_height 11
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y12=true}}] positioned ~-5 12 ~-5 run scoreboard players set @s container_height 12
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y13=true}}] positioned ~-5 13 ~-5 run scoreboard players set @s container_height 13
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y14=true}}] positioned ~-5 14 ~-5 run scoreboard players set @s container_height 14
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y15=true}}] positioned ~-5 15 ~-5 run scoreboard players set @s container_height 15
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y16=true}}] positioned ~-5 16 ~-5 run scoreboard players set @s container_height 16
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y17=true}}] positioned ~-5 17 ~-5 run scoreboard players set @s container_height 17
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y18=true}}] positioned ~-5 18 ~-5 run scoreboard players set @s container_height 18
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y19=true}}] positioned ~-5 19 ~-5 run scoreboard players set @s container_height 19
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y20=true}}] positioned ~-5 20 ~-5 run scoreboard players set @s container_height 20
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y21=true}}] positioned ~-5 21 ~-5 run scoreboard players set @s container_height 21
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y22=true}}] positioned ~-5 22 ~-5 run scoreboard players set @s container_height 22
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y23=true}}] positioned ~-5 23 ~-5 run scoreboard players set @s container_height 23
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y24=true}}] positioned ~-5 24 ~-5 run scoreboard players set @s container_height 24
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y25=true}}] positioned ~-5 25 ~-5 run scoreboard players set @s container_height 25
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y26=true}}] positioned ~-5 26 ~-5 run scoreboard players set @s container_height 26
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y27=true}}] positioned ~-5 27 ~-5 run scoreboard players set @s container_height 27
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y28=true}}] positioned ~-5 28 ~-5 run scoreboard players set @s container_height 28
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y29=true}}] positioned ~-5 29 ~-5 run scoreboard players set @s container_height 29
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y30=true}}] positioned ~-5 30 ~-5 run scoreboard players set @s container_height 30
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y31=true}}] positioned ~-5 31 ~-5 run scoreboard players set @s container_height 31
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y32=true}}] positioned ~-5 32 ~-5 run scoreboard players set @s container_height 32
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y33=true}}] positioned ~-5 33 ~-5 run scoreboard players set @s container_height 33
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y34=true}}] positioned ~-5 34 ~-5 run scoreboard players set @s container_height 34
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y35=true}}] positioned ~-5 35 ~-5 run scoreboard players set @s container_height 35
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y36=true}}] positioned ~-5 36 ~-5 run scoreboard players set @s container_height 36
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y37=true}}] positioned ~-5 37 ~-5 run scoreboard players set @s container_height 37
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y38=true}}] positioned ~-5 38 ~-5 run scoreboard players set @s container_height 38
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y39=true}}] positioned ~-5 39 ~-5 run scoreboard players set @s container_height 39
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y40=true}}] positioned ~-5 40 ~-5 run scoreboard players set @s container_height 40
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y41=true}}] positioned ~-5 41 ~-5 run scoreboard players set @s container_height 41
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y42=true}}] positioned ~-5 42 ~-5 run scoreboard players set @s container_height 42
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y43=true}}] positioned ~-5 43 ~-5 run scoreboard players set @s container_height 43
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y44=true}}] positioned ~-5 44 ~-5 run scoreboard players set @s container_height 44
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y45=true}}] positioned ~-5 45 ~-5 run scoreboard players set @s container_height 45
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y46=true}}] positioned ~-5 46 ~-5 run scoreboard players set @s container_height 46
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y47=true}}] positioned ~-5 47 ~-5 run scoreboard players set @s container_height 47
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y48=true}}] positioned ~-5 48 ~-5 run scoreboard players set @s container_height 48
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y49=true}}] positioned ~-5 49 ~-5 run scoreboard players set @s container_height 49
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y50=true}}] positioned ~-5 50 ~-5 run scoreboard players set @s container_height 50
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y51=true}}] positioned ~-5 51 ~-5 run scoreboard players set @s container_height 51
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y52=true}}] positioned ~-5 52 ~-5 run scoreboard players set @s container_height 52
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y53=true}}] positioned ~-5 53 ~-5 run scoreboard players set @s container_height 53
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y54=true}}] positioned ~-5 54 ~-5 run scoreboard players set @s container_height 54
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y55=true}}] positioned ~-5 55 ~-5 run scoreboard players set @s container_height 55
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y56=true}}] positioned ~-5 56 ~-5 run scoreboard players set @s container_height 56
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y57=true}}] positioned ~-5 57 ~-5 run scoreboard players set @s container_height 57
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y58=true}}] positioned ~-5 58 ~-5 run scoreboard players set @s container_height 58
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y59=true}}] positioned ~-5 59 ~-5 run scoreboard players set @s container_height 59
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y60=true}}] positioned ~-5 60 ~-5 run scoreboard players set @s container_height 60
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y61=true}}] positioned ~-5 61 ~-5 run scoreboard players set @s container_height 61
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y62=true}}] positioned ~-5 62 ~-5 run scoreboard players set @s container_height 62
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y63=true}}] positioned ~-5 63 ~-5 run scoreboard players set @s container_height 63
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y64=true}}] positioned ~-5 64 ~-5 run scoreboard players set @s container_height 64
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y65=true}}] positioned ~-5 65 ~-5 run scoreboard players set @s container_height 65
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y66=true}}] positioned ~-5 66 ~-5 run scoreboard players set @s container_height 66
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y67=true}}] positioned ~-5 67 ~-5 run scoreboard players set @s container_height 67
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y68=true}}] positioned ~-5 68 ~-5 run scoreboard players set @s container_height 68
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y69=true}}] positioned ~-5 69 ~-5 run scoreboard players set @s container_height 69
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y70=true}}] positioned ~-5 70 ~-5 run scoreboard players set @s container_height 70
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y71=true}}] positioned ~-5 71 ~-5 run scoreboard players set @s container_height 71
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y72=true}}] positioned ~-5 72 ~-5 run scoreboard players set @s container_height 72
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y73=true}}] positioned ~-5 73 ~-5 run scoreboard players set @s container_height 73
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y74=true}}] positioned ~-5 74 ~-5 run scoreboard players set @s container_height 74
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y75=true}}] positioned ~-5 75 ~-5 run scoreboard players set @s container_height 75
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y76=true}}] positioned ~-5 76 ~-5 run scoreboard players set @s container_height 76
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y77=true}}] positioned ~-5 77 ~-5 run scoreboard players set @s container_height 77
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y78=true}}] positioned ~-5 78 ~-5 run scoreboard players set @s container_height 78
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y79=true}}] positioned ~-5 79 ~-5 run scoreboard players set @s container_height 79
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y80=true}}] positioned ~-5 80 ~-5 run scoreboard players set @s container_height 80
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y81=true}}] positioned ~-5 81 ~-5 run scoreboard players set @s container_height 81
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y82=true}}] positioned ~-5 82 ~-5 run scoreboard players set @s container_height 82
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y83=true}}] positioned ~-5 83 ~-5 run scoreboard players set @s container_height 83
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y84=true}}] positioned ~-5 84 ~-5 run scoreboard players set @s container_height 84
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y85=true}}] positioned ~-5 85 ~-5 run scoreboard players set @s container_height 85
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y86=true}}] positioned ~-5 86 ~-5 run scoreboard players set @s container_height 86
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y87=true}}] positioned ~-5 87 ~-5 run scoreboard players set @s container_height 87
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y88=true}}] positioned ~-5 88 ~-5 run scoreboard players set @s container_height 88
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y89=true}}] positioned ~-5 89 ~-5 run scoreboard players set @s container_height 89
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y90=true}}] positioned ~-5 90 ~-5 run scoreboard players set @s container_height 90
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y91=true}}] positioned ~-5 91 ~-5 run scoreboard players set @s container_height 91
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y92=true}}] positioned ~-5 92 ~-5 run scoreboard players set @s container_height 92
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y93=true}}] positioned ~-5 93 ~-5 run scoreboard players set @s container_height 93
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y94=true}}] positioned ~-5 94 ~-5 run scoreboard players set @s container_height 94
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y95=true}}] positioned ~-5 95 ~-5 run scoreboard players set @s container_height 95
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y96=true}}] positioned ~-5 96 ~-5 run scoreboard players set @s container_height 96
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y97=true}}] positioned ~-5 97 ~-5 run scoreboard players set @s container_height 97
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y98=true}}] positioned ~-5 98 ~-5 run scoreboard players set @s container_height 98
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y99=true}}] positioned ~-5 99 ~-5 run scoreboard players set @s container_height 99
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y100=true}}] positioned ~-5 100 ~-5 run scoreboard players set @s container_height 100
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y101=true}}] positioned ~-5 101 ~-5 run scoreboard players set @s container_height 101
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y102=true}}] positioned ~-5 102 ~-5 run scoreboard players set @s container_height 102
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y103=true}}] positioned ~-5 103 ~-5 run scoreboard players set @s container_height 103
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y104=true}}] positioned ~-5 104 ~-5 run scoreboard players set @s container_height 104
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y105=true}}] positioned ~-5 105 ~-5 run scoreboard players set @s container_height 105
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y106=true}}] positioned ~-5 106 ~-5 run scoreboard players set @s container_height 106
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y107=true}}] positioned ~-5 107 ~-5 run scoreboard players set @s container_height 107
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y108=true}}] positioned ~-5 108 ~-5 run scoreboard players set @s container_height 108
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y109=true}}] positioned ~-5 109 ~-5 run scoreboard players set @s container_height 109
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y110=true}}] positioned ~-5 110 ~-5 run scoreboard players set @s container_height 110
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y111=true}}] positioned ~-5 111 ~-5 run scoreboard players set @s container_height 111
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y112=true}}] positioned ~-5 112 ~-5 run scoreboard players set @s container_height 112
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y113=true}}] positioned ~-5 113 ~-5 run scoreboard players set @s container_height 113
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y114=true}}] positioned ~-5 114 ~-5 run scoreboard players set @s container_height 114
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y115=true}}] positioned ~-5 115 ~-5 run scoreboard players set @s container_height 115
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y116=true}}] positioned ~-5 116 ~-5 run scoreboard players set @s container_height 116
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y117=true}}] positioned ~-5 117 ~-5 run scoreboard players set @s container_height 117
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y118=true}}] positioned ~-5 118 ~-5 run scoreboard players set @s container_height 118
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y119=true}}] positioned ~-5 119 ~-5 run scoreboard players set @s container_height 119
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y120=true}}] positioned ~-5 120 ~-5 run scoreboard players set @s container_height 120
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y121=true}}] positioned ~-5 121 ~-5 run scoreboard players set @s container_height 121
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y122=true}}] positioned ~-5 122 ~-5 run scoreboard players set @s container_height 122
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y123=true}}] positioned ~-5 123 ~-5 run scoreboard players set @s container_height 123
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y124=true}}] positioned ~-5 124 ~-5 run scoreboard players set @s container_height 124
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y125=true}}] positioned ~-5 125 ~-5 run scoreboard players set @s container_height 125
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y126=true}}] positioned ~-5 126 ~-5 run scoreboard players set @s container_height 126
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y127=true}}] positioned ~-5 127 ~-5 run scoreboard players set @s container_height 127
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y128=true}}] positioned ~-5 128 ~-5 run scoreboard players set @s container_height 128
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y129=true}}] positioned ~-5 129 ~-5 run scoreboard players set @s container_height 129
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y130=true}}] positioned ~-5 130 ~-5 run scoreboard players set @s container_height 130
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y131=true}}] positioned ~-5 131 ~-5 run scoreboard players set @s container_height 131
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y132=true}}] positioned ~-5 132 ~-5 run scoreboard players set @s container_height 132
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y133=true}}] positioned ~-5 133 ~-5 run scoreboard players set @s container_height 133
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y134=true}}] positioned ~-5 134 ~-5 run scoreboard players set @s container_height 134
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y135=true}}] positioned ~-5 135 ~-5 run scoreboard players set @s container_height 135
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y136=true}}] positioned ~-5 136 ~-5 run scoreboard players set @s container_height 136
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y137=true}}] positioned ~-5 137 ~-5 run scoreboard players set @s container_height 137
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y138=true}}] positioned ~-5 138 ~-5 run scoreboard players set @s container_height 138
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y139=true}}] positioned ~-5 139 ~-5 run scoreboard players set @s container_height 139
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y140=true}}] positioned ~-5 140 ~-5 run scoreboard players set @s container_height 140
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y141=true}}] positioned ~-5 141 ~-5 run scoreboard players set @s container_height 141
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y142=true}}] positioned ~-5 142 ~-5 run scoreboard players set @s container_height 142
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y143=true}}] positioned ~-5 143 ~-5 run scoreboard players set @s container_height 143
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y144=true}}] positioned ~-5 144 ~-5 run scoreboard players set @s container_height 144
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y145=true}}] positioned ~-5 145 ~-5 run scoreboard players set @s container_height 145
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y146=true}}] positioned ~-5 146 ~-5 run scoreboard players set @s container_height 146
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y147=true}}] positioned ~-5 147 ~-5 run scoreboard players set @s container_height 147
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y148=true}}] positioned ~-5 148 ~-5 run scoreboard players set @s container_height 148
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y149=true}}] positioned ~-5 149 ~-5 run scoreboard players set @s container_height 149
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y150=true}}] positioned ~-5 150 ~-5 run scoreboard players set @s container_height 150
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y151=true}}] positioned ~-5 151 ~-5 run scoreboard players set @s container_height 151
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y152=true}}] positioned ~-5 152 ~-5 run scoreboard players set @s container_height 152
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y153=true}}] positioned ~-5 153 ~-5 run scoreboard players set @s container_height 153
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y154=true}}] positioned ~-5 154 ~-5 run scoreboard players set @s container_height 154
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y155=true}}] positioned ~-5 155 ~-5 run scoreboard players set @s container_height 155
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y156=true}}] positioned ~-5 156 ~-5 run scoreboard players set @s container_height 156
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y157=true}}] positioned ~-5 157 ~-5 run scoreboard players set @s container_height 157
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y158=true}}] positioned ~-5 158 ~-5 run scoreboard players set @s container_height 158
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y159=true}}] positioned ~-5 159 ~-5 run scoreboard players set @s container_height 159
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y160=true}}] positioned ~-5 160 ~-5 run scoreboard players set @s container_height 160
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y161=true}}] positioned ~-5 161 ~-5 run scoreboard players set @s container_height 161
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y162=true}}] positioned ~-5 162 ~-5 run scoreboard players set @s container_height 162
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y163=true}}] positioned ~-5 163 ~-5 run scoreboard players set @s container_height 163
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y164=true}}] positioned ~-5 164 ~-5 run scoreboard players set @s container_height 164
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y165=true}}] positioned ~-5 165 ~-5 run scoreboard players set @s container_height 165
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y166=true}}] positioned ~-5 166 ~-5 run scoreboard players set @s container_height 166
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y167=true}}] positioned ~-5 167 ~-5 run scoreboard players set @s container_height 167
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y168=true}}] positioned ~-5 168 ~-5 run scoreboard players set @s container_height 168
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y169=true}}] positioned ~-5 169 ~-5 run scoreboard players set @s container_height 169
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y170=true}}] positioned ~-5 170 ~-5 run scoreboard players set @s container_height 170
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y171=true}}] positioned ~-5 171 ~-5 run scoreboard players set @s container_height 171
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y172=true}}] positioned ~-5 172 ~-5 run scoreboard players set @s container_height 172
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y173=true}}] positioned ~-5 173 ~-5 run scoreboard players set @s container_height 173
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y174=true}}] positioned ~-5 174 ~-5 run scoreboard players set @s container_height 174
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y175=true}}] positioned ~-5 175 ~-5 run scoreboard players set @s container_height 175
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y176=true}}] positioned ~-5 176 ~-5 run scoreboard players set @s container_height 176
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y177=true}}] positioned ~-5 177 ~-5 run scoreboard players set @s container_height 177
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y178=true}}] positioned ~-5 178 ~-5 run scoreboard players set @s container_height 178
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y179=true}}] positioned ~-5 179 ~-5 run scoreboard players set @s container_height 179
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y180=true}}] positioned ~-5 180 ~-5 run scoreboard players set @s container_height 180
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y181=true}}] positioned ~-5 181 ~-5 run scoreboard players set @s container_height 181
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y182=true}}] positioned ~-5 182 ~-5 run scoreboard players set @s container_height 182
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y183=true}}] positioned ~-5 183 ~-5 run scoreboard players set @s container_height 183
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y184=true}}] positioned ~-5 184 ~-5 run scoreboard players set @s container_height 184
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y185=true}}] positioned ~-5 185 ~-5 run scoreboard players set @s container_height 185
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y186=true}}] positioned ~-5 186 ~-5 run scoreboard players set @s container_height 186
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y187=true}}] positioned ~-5 187 ~-5 run scoreboard players set @s container_height 187
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y188=true}}] positioned ~-5 188 ~-5 run scoreboard players set @s container_height 188
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y189=true}}] positioned ~-5 189 ~-5 run scoreboard players set @s container_height 189
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y190=true}}] positioned ~-5 190 ~-5 run scoreboard players set @s container_height 190
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y191=true}}] positioned ~-5 191 ~-5 run scoreboard players set @s container_height 191
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y192=true}}] positioned ~-5 192 ~-5 run scoreboard players set @s container_height 192
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y193=true}}] positioned ~-5 193 ~-5 run scoreboard players set @s container_height 193
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y194=true}}] positioned ~-5 194 ~-5 run scoreboard players set @s container_height 194
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y195=true}}] positioned ~-5 195 ~-5 run scoreboard players set @s container_height 195
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y196=true}}] positioned ~-5 196 ~-5 run scoreboard players set @s container_height 196
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y197=true}}] positioned ~-5 197 ~-5 run scoreboard players set @s container_height 197
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y198=true}}] positioned ~-5 198 ~-5 run scoreboard players set @s container_height 198
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y199=true}}] positioned ~-5 199 ~-5 run scoreboard players set @s container_height 199
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y200=true}}] positioned ~-5 200 ~-5 run scoreboard players set @s container_height 200
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y201=true}}] positioned ~-5 201 ~-5 run scoreboard players set @s container_height 201
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y202=true}}] positioned ~-5 202 ~-5 run scoreboard players set @s container_height 202
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y203=true}}] positioned ~-5 203 ~-5 run scoreboard players set @s container_height 203
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y204=true}}] positioned ~-5 204 ~-5 run scoreboard players set @s container_height 204
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y205=true}}] positioned ~-5 205 ~-5 run scoreboard players set @s container_height 205
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y206=true}}] positioned ~-5 206 ~-5 run scoreboard players set @s container_height 206
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y207=true}}] positioned ~-5 207 ~-5 run scoreboard players set @s container_height 207
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y208=true}}] positioned ~-5 208 ~-5 run scoreboard players set @s container_height 208
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y209=true}}] positioned ~-5 209 ~-5 run scoreboard players set @s container_height 209
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y210=true}}] positioned ~-5 210 ~-5 run scoreboard players set @s container_height 210
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y211=true}}] positioned ~-5 211 ~-5 run scoreboard players set @s container_height 211
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y212=true}}] positioned ~-5 212 ~-5 run scoreboard players set @s container_height 212
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y213=true}}] positioned ~-5 213 ~-5 run scoreboard players set @s container_height 213
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y214=true}}] positioned ~-5 214 ~-5 run scoreboard players set @s container_height 214
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y215=true}}] positioned ~-5 215 ~-5 run scoreboard players set @s container_height 215
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y216=true}}] positioned ~-5 216 ~-5 run scoreboard players set @s container_height 216
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y217=true}}] positioned ~-5 217 ~-5 run scoreboard players set @s container_height 217
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y218=true}}] positioned ~-5 218 ~-5 run scoreboard players set @s container_height 218
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y219=true}}] positioned ~-5 219 ~-5 run scoreboard players set @s container_height 219
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y220=true}}] positioned ~-5 220 ~-5 run scoreboard players set @s container_height 220
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y221=true}}] positioned ~-5 221 ~-5 run scoreboard players set @s container_height 221
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y222=true}}] positioned ~-5 222 ~-5 run scoreboard players set @s container_height 222
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y223=true}}] positioned ~-5 223 ~-5 run scoreboard players set @s container_height 223
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y224=true}}] positioned ~-5 224 ~-5 run scoreboard players set @s container_height 224
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y225=true}}] positioned ~-5 225 ~-5 run scoreboard players set @s container_height 225
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y226=true}}] positioned ~-5 226 ~-5 run scoreboard players set @s container_height 226
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y227=true}}] positioned ~-5 227 ~-5 run scoreboard players set @s container_height 227
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y228=true}}] positioned ~-5 228 ~-5 run scoreboard players set @s container_height 228
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y229=true}}] positioned ~-5 229 ~-5 run scoreboard players set @s container_height 229
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y230=true}}] positioned ~-5 230 ~-5 run scoreboard players set @s container_height 230
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y231=true}}] positioned ~-5 231 ~-5 run scoreboard players set @s container_height 231
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y232=true}}] positioned ~-5 232 ~-5 run scoreboard players set @s container_height 232
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y233=true}}] positioned ~-5 233 ~-5 run scoreboard players set @s container_height 233
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y234=true}}] positioned ~-5 234 ~-5 run scoreboard players set @s container_height 234
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y235=true}}] positioned ~-5 235 ~-5 run scoreboard players set @s container_height 235
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y236=true}}] positioned ~-5 236 ~-5 run scoreboard players set @s container_height 236
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y237=true}}] positioned ~-5 237 ~-5 run scoreboard players set @s container_height 237
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y238=true}}] positioned ~-5 238 ~-5 run scoreboard players set @s container_height 238
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y239=true}}] positioned ~-5 239 ~-5 run scoreboard players set @s container_height 239
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y240=true}}] positioned ~-5 240 ~-5 run scoreboard players set @s container_height 240
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y241=true}}] positioned ~-5 241 ~-5 run scoreboard players set @s container_height 241
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y242=true}}] positioned ~-5 242 ~-5 run scoreboard players set @s container_height 242
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y243=true}}] positioned ~-5 243 ~-5 run scoreboard players set @s container_height 243
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y244=true}}] positioned ~-5 244 ~-5 run scoreboard players set @s container_height 244
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y245=true}}] positioned ~-5 245 ~-5 run scoreboard players set @s container_height 245
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y246=true}}] positioned ~-5 246 ~-5 run scoreboard players set @s container_height 246
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y247=true}}] positioned ~-5 247 ~-5 run scoreboard players set @s container_height 247
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y248=true}}] positioned ~-5 248 ~-5 run scoreboard players set @s container_height 248
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y249=true}}] positioned ~-5 249 ~-5 run scoreboard players set @s container_height 249
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y250=true}}] positioned ~-5 250 ~-5 run scoreboard players set @s container_height 250
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y251=true}}] positioned ~-5 251 ~-5 run scoreboard players set @s container_height 251
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y252=true}}] positioned ~-5 252 ~-5 run scoreboard players set @s container_height 252
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y253=true}}] positioned ~-5 253 ~-5 run scoreboard players set @s container_height 253
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y254=true}}] positioned ~-5 254 ~-5 run scoreboard players set @s container_height 254
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y255=true}}] positioned ~-5 255 ~-5 run scoreboard players set @s container_height 255
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y256=true}}] positioned ~-5 256 ~-5 run scoreboard players set @s container_height 256
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y257=true}}] positioned ~-5 257 ~-5 run scoreboard players set @s container_height 257
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y258=true}}] positioned ~-5 258 ~-5 run scoreboard players set @s container_height 258
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y259=true}}] positioned ~-5 259 ~-5 run scoreboard players set @s container_height 259
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y260=true}}] positioned ~-5 260 ~-5 run scoreboard players set @s container_height 260
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y261=true}}] positioned ~-5 261 ~-5 run scoreboard players set @s container_height 261
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y262=true}}] positioned ~-5 262 ~-5 run scoreboard players set @s container_height 262
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y263=true}}] positioned ~-5 263 ~-5 run scoreboard players set @s container_height 263
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y264=true}}] positioned ~-5 264 ~-5 run scoreboard players set @s container_height 264
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y265=true}}] positioned ~-5 265 ~-5 run scoreboard players set @s container_height 265
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y266=true}}] positioned ~-5 266 ~-5 run scoreboard players set @s container_height 266
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y267=true}}] positioned ~-5 267 ~-5 run scoreboard players set @s container_height 267
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y268=true}}] positioned ~-5 268 ~-5 run scoreboard players set @s container_height 268
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y269=true}}] positioned ~-5 269 ~-5 run scoreboard players set @s container_height 269
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y270=true}}] positioned ~-5 270 ~-5 run scoreboard players set @s container_height 270
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y271=true}}] positioned ~-5 271 ~-5 run scoreboard players set @s container_height 271
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y272=true}}] positioned ~-5 272 ~-5 run scoreboard players set @s container_height 272
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y273=true}}] positioned ~-5 273 ~-5 run scoreboard players set @s container_height 273
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y274=true}}] positioned ~-5 274 ~-5 run scoreboard players set @s container_height 274
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y275=true}}] positioned ~-5 275 ~-5 run scoreboard players set @s container_height 275
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y276=true}}] positioned ~-5 276 ~-5 run scoreboard players set @s container_height 276
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y277=true}}] positioned ~-5 277 ~-5 run scoreboard players set @s container_height 277
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y278=true}}] positioned ~-5 278 ~-5 run scoreboard players set @s container_height 278
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y279=true}}] positioned ~-5 279 ~-5 run scoreboard players set @s container_height 279
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y280=true}}] positioned ~-5 280 ~-5 run scoreboard players set @s container_height 280
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y281=true}}] positioned ~-5 281 ~-5 run scoreboard players set @s container_height 281
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y282=true}}] positioned ~-5 282 ~-5 run scoreboard players set @s container_height 282
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y283=true}}] positioned ~-5 283 ~-5 run scoreboard players set @s container_height 283
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y284=true}}] positioned ~-5 284 ~-5 run scoreboard players set @s container_height 284
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y285=true}}] positioned ~-5 285 ~-5 run scoreboard players set @s container_height 285
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y286=true}}] positioned ~-5 286 ~-5 run scoreboard players set @s container_height 286
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y287=true}}] positioned ~-5 287 ~-5 run scoreboard players set @s container_height 287
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y288=true}}] positioned ~-5 288 ~-5 run scoreboard players set @s container_height 288
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y289=true}}] positioned ~-5 289 ~-5 run scoreboard players set @s container_height 289
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y290=true}}] positioned ~-5 290 ~-5 run scoreboard players set @s container_height 290
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y291=true}}] positioned ~-5 291 ~-5 run scoreboard players set @s container_height 291
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y292=true}}] positioned ~-5 292 ~-5 run scoreboard players set @s container_height 292
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y293=true}}] positioned ~-5 293 ~-5 run scoreboard players set @s container_height 293
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y294=true}}] positioned ~-5 294 ~-5 run scoreboard players set @s container_height 294
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y295=true}}] positioned ~-5 295 ~-5 run scoreboard players set @s container_height 295
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y296=true}}] positioned ~-5 296 ~-5 run scoreboard players set @s container_height 296
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y297=true}}] positioned ~-5 297 ~-5 run scoreboard players set @s container_height 297
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y298=true}}] positioned ~-5 298 ~-5 run scoreboard players set @s container_height 298
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y299=true}}] positioned ~-5 299 ~-5 run scoreboard players set @s container_height 299
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y300=true}}] positioned ~-5 300 ~-5 run scoreboard players set @s container_height 300
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y301=true}}] positioned ~-5 301 ~-5 run scoreboard players set @s container_height 301
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y302=true}}] positioned ~-5 302 ~-5 run scoreboard players set @s container_height 302
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y303=true}}] positioned ~-5 303 ~-5 run scoreboard players set @s container_height 303
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y304=true}}] positioned ~-5 304 ~-5 run scoreboard players set @s container_height 304
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y305=true}}] positioned ~-5 305 ~-5 run scoreboard players set @s container_height 305
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y306=true}}] positioned ~-5 306 ~-5 run scoreboard players set @s container_height 306
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y307=true}}] positioned ~-5 307 ~-5 run scoreboard players set @s container_height 307
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y308=true}}] positioned ~-5 308 ~-5 run scoreboard players set @s container_height 308
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y309=true}}] positioned ~-5 309 ~-5 run scoreboard players set @s container_height 309
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y310=true}}] positioned ~-5 310 ~-5 run scoreboard players set @s container_height 310
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y311=true}}] positioned ~-5 311 ~-5 run scoreboard players set @s container_height 311
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y312=true}}] positioned ~-5 312 ~-5 run scoreboard players set @s container_height 312
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y313=true}}] positioned ~-5 313 ~-5 run scoreboard players set @s container_height 313
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y314=true}}] positioned ~-5 314 ~-5 run scoreboard players set @s container_height 314
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y315=true}}] positioned ~-5 315 ~-5 run scoreboard players set @s container_height 315
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y316=true}}] positioned ~-5 316 ~-5 run scoreboard players set @s container_height 316
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y317=true}}] positioned ~-5 317 ~-5 run scoreboard players set @s container_height 317
+execute if entity @s[advancements={area_11_red:interact_with_gui_block={y318=true}}] positioned ~-5 318 ~-5 run scoreboard players set @s container_height 318
+
+scoreboard players set @s container_timer 2
 
 #advancement clearing
 advancement revoke @s only area_11_red:interact_with_gui_block
