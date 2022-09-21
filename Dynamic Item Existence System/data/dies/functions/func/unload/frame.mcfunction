@@ -6,11 +6,11 @@
 #Summon fresh marker
 summon marker ~ ~ ~ {Tags:["dies.registered","dies.unloaded.frame","dies.fresh"]}
 #Merge data from frame onto marker
-data modify entity @e[type=marker,distance=..1,limit=1,sort=nearest,tag=dies.fresh] data set from entity @s {}
+data modify storage dies:it_dies temp set from entity @s {}
 #Copy render distance score from frame to marker
-scoreboard players operation @e[type=marker,distance=..1,limit=1,sort=nearest,tag=dies.fresh] dies.object.render_distance = @s dies.object.render_distance
+scoreboard players operation $temp dies.object.render_distance = @s dies.object.render_distance
 
-#Remove fresh tag
-tag @e[type=marker,distance=..1,limit=1,sort=nearest,tag=dies.fresh] remove dies.fresh
+execute as @e[type=marker,distance=..1,limit=1,sort=nearest,tag=dies.fresh] run function dies:func/unload/copy
+
 #Remove frame
 kill @s
