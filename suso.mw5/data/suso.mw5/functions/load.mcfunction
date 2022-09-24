@@ -14,7 +14,7 @@ scoreboard players set $d_extrapack suso.mw 1
 scoreboard players set $d_version suso.mw 1
 scoreboard players set $d_help suso.mw 1
 scoreboard players set $warn_title suso.mw 1
-scoreboard players set $pack_ct suso.mw 33
+scoreboard players set $pack_ct suso.mw 34
 scoreboard players set $help_ct suso.mw 58
 #Version 1.19.2
 scoreboard players set $valid_version suso.mw 3120
