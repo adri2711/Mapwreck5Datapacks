@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        " O ",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "O": {
+            "item": "minecraft:bookshelf"
+        }
+    },
+    "result": {
+        "item": "minecraft:lectern",
+        "count": 1
+    }
+}

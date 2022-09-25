@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "boat",
+    "pattern": [
+        "C C",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:jungle_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:jungle_boat",
+        "count": 1
+    }
+}
