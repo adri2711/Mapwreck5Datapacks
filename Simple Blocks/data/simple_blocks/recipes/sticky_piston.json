@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O",
+        "C"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:piston"
+        },
+        "O": {
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "result": {
+        "item": "minecraft:sticky_piston",
+        "count": 1
+    }
+}

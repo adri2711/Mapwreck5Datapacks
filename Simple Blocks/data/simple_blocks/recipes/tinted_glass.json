@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "COC",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "O": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:tinted_glass",
+        "count": 2
+    }
+}
