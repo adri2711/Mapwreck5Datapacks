@@ -3,15 +3,16 @@ scoreboard players set @s tp.track 0
 
 # Area > Monument
 execute positioned -58 86 -90 if entity @s[distance=...8] run scoreboard players set @s tp.track 1
-execute positioned -421 79 146 if entity @s[distance=...8] run scoreboard players set @s tp.track 2
+execute positioned -338 100 100 if entity @s[distance=...8] run scoreboard players set @s tp.track 2
 execute positioned -32 217 -281 if entity @s[distance=...8] run scoreboard players set @s tp.track 3
-execute positioned -142 141 -27 if entity @s[distance=...8] run scoreboard players set @s tp.track 4
+execute positioned 142 141 -27 if entity @s[distance=...8] run scoreboard players set @s tp.track 4
 execute positioned -123 95 -251 if entity @s[distance=...8] run scoreboard players set @s tp.track 5
 execute positioned -181 25 -66 if entity @s[distance=...8] run scoreboard players set @s tp.track 6
 execute positioned -65 182 264 if entity @s[distance=...8] run scoreboard players set @s tp.track 7
 execute positioned -5 54 -42 if entity @s[distance=...8] run scoreboard players set @s tp.track 8
-execute positioned 180 39 107 if entity @s[distance=...8] run scoreboard players set @s tp.track 9
+execute positioned 180 39 104 if entity @s[distance=...8] run scoreboard players set @s tp.track 9
 execute positioned -110 224 209 if entity @s[distance=...8] run scoreboard players set @s tp.track 10
+execute positioned -316 39 -293 if entity @s[distance=...8] run scoreboard players set @s tp.track 27
 
 # Monument > Area
 execute positioned -28 90 81 if entity @s[distance=...8] run scoreboard players set @s tp.track 11
@@ -28,6 +29,12 @@ execute positioned -8 91 88 if entity @s[distance=...8] run scoreboard players s
 # Last Minute Addition for Red
 execute positioned 114 214 150 if entity @s[distance=...8] run scoreboard players set @s tp.track 21
 execute positioned -23 91 87 if entity @s[distance=...8] run scoreboard players set @s tp.track 22
+
+# Magenta & Light Blue
+execute positioned -230 105 51 if entity @s[distance=...8] run scoreboard players set @s tp.track 23
+execute positioned -31 90 85 if entity @s[distance=...8] run scoreboard players set @s tp.track 24
+execute positioned -180 92 -53 if entity @s[distance=...8] run scoreboard players set @s tp.track 25
+execute positioned -27 90 81 if entity @s[distance=...8] run scoreboard players set @s tp.track 26
 
 # Teleport
 execute if score @s tp.track matches 1.. run function sqx.mon:teleporters/branch

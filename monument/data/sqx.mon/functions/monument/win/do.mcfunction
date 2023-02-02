@@ -10,7 +10,7 @@ execute if score $win_timer sqx.var matches 180 as @a at @s run playsound minecr
 
 # Event 2 - Title - 12s
 execute if score $win_timer sqx.var matches 240 as @a run title @s times 30 80 30
-execute if score $win_timer sqx.var matches 240 as @a run title @s title {"text":"< Map Name >","color":"gray"}
+execute if score $win_timer sqx.var matches 240 as @a run title @s title {"text":"< Currents >","color":"gray"}
 execute if score $win_timer sqx.var matches 240 as @a run title @s subtitle {"text":"Thanks for Playing!","color":"gray"}
 
 # Event 2.5 - Call Additional Win Functions - 12s

@@ -25,8 +25,6 @@ scoreboard players set $bonus_obj1_placed sqx.var 0
 scoreboard players set $bonus_obj2_placed sqx.var 0
 scoreboard players set $bonus_obj3_placed sqx.var 0
 
-scoreboard players set $lucky_stones_complete sqx.var 0
-
 scoreboard players set $win sqx.var 0
 scoreboard players set $win_timer sqx.var 0
 scoreboard players set $door_timer sqx.var 0
