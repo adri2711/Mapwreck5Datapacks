@@ -1,0 +1,1 @@
+execute as @a[predicate=area_3:in_water,predicate=area_3:swamp] at @s run effect give @s wither 3 1 false
