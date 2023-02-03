@@ -34,7 +34,7 @@ execute positioned -23 91 87 if entity @s[distance=...8] run scoreboard players 
 execute positioned -230 105 51 if entity @s[distance=...8] run scoreboard players set @s tp.track 23
 execute positioned -31 90 85 if entity @s[distance=...8] run scoreboard players set @s tp.track 24
 execute positioned -180 92 -53 if entity @s[distance=...8] run scoreboard players set @s tp.track 25
-execute positioned -27 90 81 if entity @s[distance=...8] run scoreboard players set @s tp.track 26
+execute positioned -29 90 78 if entity @s[distance=...8] run scoreboard players set @s tp.track 26
 
 # Teleport
 execute if score @s tp.track matches 1.. run function sqx.mon:teleporters/branch
