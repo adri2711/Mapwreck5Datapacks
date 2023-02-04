@@ -1,1 +1,0 @@
-execute if entity @a[distance=..12] run function cartographer_charon:vill/purge_used_trades

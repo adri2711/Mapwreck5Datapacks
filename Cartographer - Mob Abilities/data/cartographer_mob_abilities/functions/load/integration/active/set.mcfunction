@@ -1,1 +1,0 @@
-data modify storage loe:datapacks active_datapacks.cartographer.mob_abilities set value 1

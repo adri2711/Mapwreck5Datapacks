@@ -1,1 +1,0 @@
-execute if score $light_avail ca.tokens matches 1.. run function cartographer_mob_abilities:helper/token/take/light

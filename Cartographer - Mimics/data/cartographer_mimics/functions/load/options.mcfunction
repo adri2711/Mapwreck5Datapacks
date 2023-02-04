@@ -1,1 +1,0 @@
-tellraw @a {"text":"Mimics Options: ","color":"#FFF56E","italic":false}
