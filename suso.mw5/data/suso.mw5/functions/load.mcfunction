@@ -32,6 +32,8 @@ scoreboard players set #13 suso.mw5.var 13
 function suso.rng:seed
 function suso.mw5:start/choose_panorama
 
+execute store result score $difficulty suso.mw5.var run difficulty
+execute if score $difficulty suso.mw5.var matches 0 run difficulty normal
 
 # 55555555-4444-3333-2222-00000000000X
 summon minecraft:creeper -131.06 107.49 21.65 {Rotation:[105.23f,-11.20f],UUID:[I;1431655765,1145320243,572653568,0],NoGravity:1b,NoAI:1b,PersistenceRequired:1b,Invulnerable:1b,Silent:1b,DeathLootTable:"null",ActiveEffects:[{Id:14,Amplifier:0b,Duration:2147483647,ShowParticles:0b}]}
