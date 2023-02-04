@@ -1,4 +1,4 @@
-execute as @a[tag=!mwab.loaded] run tellraw @s [{"text":"[","color":"#A11313","bold":true,"italic":false},{"text":"MWAB ","color":"#D93327","bold":true,"italic":false,"hoverEvent":{"action":"show_text","contents":[{"text":"By Cango"}]}},{"text":"has been loaded successfully.","color":"#FF8000","bold":false,"italic":false,"hoverEvent":{"action":"show_text","contents":[{"text":"By Cango"}]}},{"text":"]","color":"#A11313","bold":true}]
+#execute as @a[tag=!mwab.loaded] run tellraw @s [{"text":"[","color":"#A11313","bold":true,"italic":false},{"text":"MWAB ","color":"#D93327","bold":true,"italic":false,"hoverEvent":{"action":"show_text","contents":[{"text":"By Cango"}]}},{"text":"has been loaded successfully.","color":"#FF8000","bold":false,"italic":false,"hoverEvent":{"action":"show_text","contents":[{"text":"By Cango"}]}},{"text":"]","color":"#A11313","bold":true}]
 tag @a add mwab.loaded
 execute as @a at @s run playsound entity.allay.item_given ambient @s ~ ~ ~ 1 1.3
 execute as @a at @s run playsound ui.loom.take_result ambient @s ~ ~ ~ 0.6 1.2
