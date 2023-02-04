@@ -17,7 +17,7 @@ execute if score $door_timer sqx.var matches 200 run particle cloud -10.8 96.5 1
 execute if score $door_timer sqx.var matches 200 positioned -10.8 96.5 108.8 run playsound block.grindstone.use master @a[distance=..20] ~ ~ ~ 1 .5
 
 # Event 4 - Open Frame 2 - 13s
-execute if score $door_timer sqx.var matches 260 run clone -11 59 134 -22 46 135 -20 90 150
+execute if score $door_timer sqx.var matches 260 run clone -11 59 150 -22 46 135 -20 90 103
 execute if score $door_timer sqx.var matches 260 positioned -10.8 96.5 108.8 run playsound block.grindstone.use master @a[distance=..20] ~ ~ ~ 1 .5
 
 # ー ー ー ー ーー ・ ーー ー ー ー ー #

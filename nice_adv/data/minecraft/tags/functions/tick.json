@@ -1,1 +1,6 @@
-{"values":["nice_adv:clock"],"replace":false}
+{
+	"replace":false,
+	"values": [
+		"nice_adv:clock"
+	]
+}

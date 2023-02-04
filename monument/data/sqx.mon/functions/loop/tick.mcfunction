@@ -1,9 +1,6 @@
 # Run Monument when a player is nearby
 execute positioned -21 86 122 if entity @a[distance=..30] run function sqx.mon:monument/main
 
-# Lucky Stones Chest
-execute positioned -2 89 144 if entity @a[distance=..15] run function sqx.mon:monument/bonus_chest/check
-
 # Victory Chest
 execute positioned 52 86 114 if score $win sqx.var matches 3 run particle enchant ~ ~ ~ .2 .2 .2 0 1
 execute positioned 52 86 114 if score $win sqx.var matches 3 if entity @a[distance=..7] run function sqx.mon:monument/win/chest
