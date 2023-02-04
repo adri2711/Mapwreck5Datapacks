@@ -4,7 +4,7 @@ execute unless score @s suso.mw5.panorama = $curr_panorama suso.mw5.var run func
 
 execute if score $time_panorama suso.mw5.var matches 20 run function suso.mw5:start/about_to_change
 execute if score @s suso.mw5.start_delay matches 1.. run function suso.mw5:start/delay
-execute unless score @s suso.mw5.start_delay matches 1.. unless score @s suso.mw5.snek matches 1.. run function suso.mw5:start/spectate
+execute unless score @s suso.mw5.snek matches 1.. run function suso.mw5:start/spectate
 
 execute if score @s suso.mw5.leave matches 1.. run playsound minecraft:music.overworld.deep_dark master @s ~ ~ ~ 1000 1
 
