@@ -1,3 +1,4 @@
+spectate
 execute if score $curr_panorama suso.mw5.var matches 0 run spectate 55555555-4444-3333-2222-000000000000
 execute if score $curr_panorama suso.mw5.var matches 1 run spectate 55555555-4444-3333-2222-000000000001
 execute if score $curr_panorama suso.mw5.var matches 2 run spectate 55555555-4444-3333-2222-000000000002
