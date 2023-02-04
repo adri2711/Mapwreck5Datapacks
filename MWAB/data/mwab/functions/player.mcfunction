@@ -24,6 +24,8 @@ execute if predicate mwab:abilities/combustion if score @s mwab.variable.combust
 execute if predicate mwab:abilities/blastboots if score @s mwab.Shift matches 1 run function mwab:abilities/items/blastboots/timer
 execute if score @s mwab.timer.blastboots matches 15 at @s run function mwab:abilities/items/blastboots/ability_prime
 execute if score @s mwab.timer.blastboots matches 15..39 if score @s mwab.Shift matches 0 run function mwab:abilities/items/blastboots/boost
+execute if predicate mwab:abilities/blastboots if score @s mwab.Shift matches 0 run scoreboard players set @s mwab.timer.blastboots 0
+
 
 execute if predicate mwab:abilities/snow_walker run function mwab:abilities/items/snow_walker/walk
 

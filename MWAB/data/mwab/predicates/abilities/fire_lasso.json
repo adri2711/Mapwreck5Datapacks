@@ -1,13 +1,13 @@
 [
-    {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-            "equipment": {
-                "offhand": {
-                    "nbt": "{mwab.fire_lasso:1}"
-                }
-            }
-        }
-    }
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"offhand": {
+					"nbt": "{mwab.fire_lasso:1}"
+				}
+			}
+		}
+	}
 ]
