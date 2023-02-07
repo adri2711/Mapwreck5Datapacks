@@ -4,6 +4,8 @@ scoreboard objectives add suso.mw5graves.id dummy
 
 scoreboard objectives add suso.mw5graves.death deathCount
 
+scoreboard players set #27 suso.mw5graves.var 27
+
 gamerule keepInventory true
 
 forceload add 29999984 27115040
