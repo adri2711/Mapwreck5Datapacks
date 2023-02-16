@@ -1,0 +1,3 @@
+summon sheep 0 300 0 {NoGravity:1b,Silent:1b,CustomNameVisible:0b,PersistenceRequired:1b,NoAI:1b,Health:1000f,Sheared:1b,Tags:["m.glowing"],ActiveEffects:[{Id:10,Amplifier:10b,Duration:100000000,ShowParticles:0b},{Id:14,Amplifier:0b,Duration:1000000000,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:1000}]}
+tp @e[tag=m.glowing] -25.5 117 -23.5
+execute as @e[tag=m.glowing] at @s run summon area_effect_cloud ~ ~0.7 ~ {Particle:"block air",NoGravity:1b,Silent:1b,CustomNameVisible:1b,Radius:0f,Tags:["m.name"],Duration:3333333,CustomName:'{"text":"- Multiplayer Glowing -","bold":false,"italic":false,"color":"gray"}'}
