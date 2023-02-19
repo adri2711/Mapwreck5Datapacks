@@ -13,6 +13,7 @@ execute positioned -5 54 -42 if entity @s[distance=...8] run scoreboard players 
 execute positioned 180 39 104 if entity @s[distance=...8] run scoreboard players set @s tp.track 9
 execute positioned -110 224 209 if entity @s[distance=...8] run scoreboard players set @s tp.track 10
 execute positioned -316 39 -293 if entity @s[distance=...8] run scoreboard players set @s tp.track 27
+execute positioned 112 155 331 if entity @s[distance=...8] run scoreboard players set @s tp.track 28
 
 # Monument > Area
 execute positioned -28 90 81 if entity @s[distance=...8] run scoreboard players set @s tp.track 11

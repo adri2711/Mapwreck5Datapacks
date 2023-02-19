@@ -13,6 +13,7 @@ execute if score @s tp.track matches 21 run function sqx.mon:teleporters/tp/a_tp
 execute if score @s tp.track matches 23 run function sqx.mon:teleporters/tp/a_tp12
 execute if score @s tp.track matches 25 run function sqx.mon:teleporters/tp/a_tp13
 execute if score @s tp.track matches 27 run function sqx.mon:teleporters/tp/a_tp5
+execute if score @s tp.track matches 28 run function sqx.mon:teleporters/tp/a_tp14
 
 # Monument > Area
 execute if score @s tp.track matches 11 run function sqx.mon:teleporters/tp/m_tp1
