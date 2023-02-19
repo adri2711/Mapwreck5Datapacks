@@ -1,1 +1,6 @@
-{"values":["casino:tick"],"replace":false}
+{
+	"values": [
+	"casino:casino_check",
+	"casino:blueplinthchecker"
+	]
+}
